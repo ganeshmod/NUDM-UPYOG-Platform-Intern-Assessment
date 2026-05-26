@@ -1,16 +1,68 @@
-# React + Vite
+🏠 UPYOG Property Tax Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Property Tax Analytics Dashboard built using React.js for the NUDM UPYOG Platform Intern Assessment.
 
-Currently, two official plugins are available:
+The dashboard helps analyze property tax data of multiple Indian cities using KPIs, charts, and an AI assistant.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
+📊 KPI Cards
+Total Properties
+Approved Properties
+Rejected Properties
+Total Collection
+🌆 City Filter
+Filter dashboard city-wise
+📈 Comparison Chart
+Collection comparison between cities using Recharts
+🤖 AI Chat Assistant
+Ask questions about the dataset in plain English
+📱 Fully Responsive UI
+🛠️ Tech Stack
+React.js
+Tailwind CSS
+Recharts
+React Icons
+Gemini / Claude API
+📂 Project Structure
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── KPICards.jsx
+│   ├── ChartPage.jsx
+│   └── AIAssistant.jsx
+│
+├
+│── properties.json
+│
+├── App.js
+└── main.jsx
+⚙️ Setup Instructions
+1️⃣ Clone Repository
+git clone <your-github-repo-link>
+2️⃣ Install Dependencies
+npm install
+3️⃣ Create .env File
+VITE_GEMINI_API_KEY=your_api_key
 
-## React Compiler
+Add .env inside .gitignore.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4️⃣ Run Project
+npm run dev
+📦 Required Packages
+npm install recharts react-icons
+npm install @google/generative-ai
+💡 AI Assistant Working
+User asks a question
+Dataset summary is sent to AI API
+AI generates response
+Answer is shown in chat UI
+📁 Dataset
 
-## Expanding the ESLint configuration
+The project uses properties.json containing property tax records of 10 Indian cities.
+🧑‍💻 Author
+Ganesh Modanwal
+Frontend Developer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack:
+React.js • Next.js • Tailwind CSS • Node.js • MongoDB
