@@ -54,18 +54,19 @@ src/
 │
 ├── App.js
 └── main.jsx
+---
 # ⚙️ Complete Setup Guide
 
 ## 1️⃣ Clone Repository
+---
 
-```bash
-git clone <your-github-repo-link>
-cd project-name
-npm install
-npm install recharts react-icons
-generate key using console.groq.com
+-git clone <your-github-repo-link>
+-cd project-name
+-npm install
+-npm install recharts react-icons
+-generate key using console.groq.com
 ## 🚫 Add .env & node_modules in .gitignore
-```bash
+---
 node_modules
 .env
 dist
