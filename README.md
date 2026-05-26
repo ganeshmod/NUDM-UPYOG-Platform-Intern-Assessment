@@ -54,37 +54,106 @@ src/
 │
 ├── App.js
 └── main.jsx
----
 # ⚙️ Complete Setup Guide
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone The Repository
+
+```bash
+git clone <your-github-repo-link>
+```
+
+### 2️⃣ Open Project Folder
+
+```bash
+cd project-name
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
 ---
 
--git clone <your-github-repo-link>
--cd project-name
--npm install
--npm install recharts react-icons
--generate key using console.groq.com
-## 🚫 Add .env & node_modules in .gitignore
+# 📦 Install Required Packages
+
+```bash
+npm install recharts react-icons
+```
+
 ---
+
+# 🔑 Generate AI API Key
+
+Generate your API key from:
+
+```bash
+https://console.groq.com
+```
+
+---
+
+# 🔐 Create `.env` File
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_GROQ_API_KEY=your_api_key
+```
+
+---
+
+# 🚫 Add These In `.gitignore`
+
+```gitignore
 node_modules
 .env
 dist
-## ▶️ Run The Project
+```
+
+---
+
+# ▶️ Run The Project
+
 ```bash
 npm run dev
-## 💡 AI Assistant Workflow
+```
+
+Project will start on:
+
 ```bash
-User asks a question
-Dataset summary is sent to AI API
-AI generates a response
-Response appears in chat UI
-## 📁 Dataset
-```bash
-The project uses properties.json containing property tax records of 10 Indian cities.
-## 🧑‍💻 Author
-```bash
-Ganesh Modanwal
+http://localhost:5173
+```
+
+---
+
+# 💡 AI Assistant Workflow
+
+- User asks a question
+- Dataset summary is processed
+- AI API generates a response
+- Response is displayed in chat UI
+
+---
+
+# 📁 Dataset
+
+The project uses `properties.json` containing property tax records of 10 Indian cities.
+
+---
+
+# 🧑‍💻 Author
+
+## Ganesh Modanwal
+
 Frontend Developer
-Tech Stack:
-React.js • Next.js • Tailwind CSS • Node.js • MongoDB
+
+### Tech Stack
+- React.js
+- Next.js
+- Tailwind CSS
+- Node.js
+- MongoDB
+
+---
